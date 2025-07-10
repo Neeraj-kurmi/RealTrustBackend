@@ -17,7 +17,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 app.use(cors({
-  origin: "https://real-trust-seven.vercel.app/",
+  origin: "https://real-trust-one.vercel.app/",
   credentials: true
 }));
 app.use(express.json({ limit: '5mb' }));
