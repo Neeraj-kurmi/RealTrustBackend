@@ -17,7 +17,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 app.use(cors({
-  origin: "https://your-frontend.vercel.app", // replace with actual frontend URL
+  origin: "https://real-trust-seven.vercel.app/",
   credentials: true
 }));
 app.use(express.json({ limit: '5mb' }));
